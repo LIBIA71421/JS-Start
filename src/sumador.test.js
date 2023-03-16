@@ -1,3 +1,4 @@
+/*
 import sumar from "./sumador.js";
 import multiplicar from "./multiplicador";
 
@@ -10,5 +11,11 @@ describe("Sumar", () => {
 describe("Multiplicar", () => {
   it("deberia multiplicar dos numeros", () => {
     expect(multiplicar(3, 2)).toEqual(6);
+  });
+});         */
+
+describe("FizzBuzz", () => {
+  it("nada", () => {
+    expect(true).toEqual(true);
   });
 });

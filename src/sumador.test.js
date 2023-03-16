@@ -1,3 +1,4 @@
+import fizzbuzz from "./fizzbuzz.js";
 /*
 import sumar from "./sumador.js";
 import multiplicar from "./multiplicador";
@@ -15,7 +16,7 @@ describe("Multiplicar", () => {
 });         */
 
 describe("FizzBuzz", () => {
-  it("nada", () => {
-    expect(true).toEqual(true);
+  it("genera para un solo numero", () => {
+    expect(fizzbuzz(1)).toEqual('1');
   });
 });

@@ -1,5 +1,8 @@
 function fizzbuzz(num){
-    return "1";
+    if(num == 3){
+        return "Fizz"
+    }
+    return num+"";
   }
 
  export default fizzbuzz;

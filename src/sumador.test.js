@@ -36,3 +36,9 @@ describe("FizzBuzz", () => {
     expect(fizzbuzz(6)).toEqual('Fizz');
   });
 });
+
+describe("FizzBuzz", () => {
+  it("genera Buzz para 5", () => {
+    expect(fizzbuzz(5)).toEqual('Buzz');
+  });
+});

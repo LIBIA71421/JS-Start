@@ -1,5 +1,6 @@
 import sumar from "./sumador";
 import multiplicar from "./multiplicador";
+import fizzbuzz from "./fizzbuzz";
 
 const first = document.querySelector("#primer-numero");
 const second = document.querySelector("#segundo-numero");

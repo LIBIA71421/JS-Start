@@ -73,3 +73,9 @@ describe("FizzBuzz", () => {
     expect(fizzbuzz_secuencia(3)).toEqual('1,2,Fizz');
   });
 });
+
+describe("FizzBuzz", () => {
+  it("retorna secuencias con Buzz", () => {
+    expect(fizzbuzz_secuencia(5)).toEqual('1,2,Fizz,4,Buzz');
+  });
+});

@@ -7,6 +7,9 @@ function fizzbuzz_secuencia(num) {
         if (cadenaS == ""){
             cadenaS =  fizzbuzz(i).toString();
         }
+        else{
+            cadenaS = cadenaS +"," + fizzbuzz(i).toString();
+        }
     }
     return cadenaS;
 }

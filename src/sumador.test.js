@@ -1,4 +1,5 @@
 import fizzbuzz from "./fizzbuzz.js";
+import fizzbuzz_secuencia from "./secuenciador.js";
 /*
 import sumar from "./sumador.js";
 import multiplicar from "./multiplicador";
@@ -56,7 +57,13 @@ describe("FizzBuzz", () => {
 });
 
 describe("FizzBuzz", () => {
-  it("genera un valor para 1 secuencia", () => {
-    expect(fizzbuzz(1)).toEqual('1');
+  it("retorna un valor para 1 secuencia", () => {
+    expect(fizzbuzz_secuencia(1)).toEqual('1');
+  });
+});
+
+describe("FizzBuzz", () => {
+  it("retorna dos valores para 2 secuencias", () => {
+    expect(fizzbuzz_secuencia(2)).toEqual('1,2');
   });
 });

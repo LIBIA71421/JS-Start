@@ -1,6 +1,18 @@
+import fizzbuzz_secuencia from "./secuenciador.js";
+
+const numFB = document.querySelector("#numeroS");
+const formFB = document.querySelector("#fizzBuzz-form");
+const divFB = document.querySelector("#res-div");
+
+formFB.addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  divFB.innerHTML = "<p>" + fizzbuzz_secuencia(numFB.value) + "</p>";
+});
+
+/*
 import sumar from "./sumador";
 import multiplicar from "./multiplicador";
-import fizzbuzz from "./fizzbuzz";
 
 const first = document.querySelector("#primer-numero");
 const second = document.querySelector("#segundo-numero");
@@ -29,3 +41,4 @@ formM.addEventListener("submit", (event) => {
 
   divM.innerHTML = "<p>" + multiplicar(firstNumber, secondNumber) + "</p>";
 });
+*/

@@ -54,3 +54,9 @@ describe("FizzBuzz", () => {
     expect(fizzbuzz(45)).toEqual('FizzBuzz');
   });
 });
+
+describe("FizzBuzz", () => {
+  it("genera un valor para 1 secuencia", () => {
+    expect(fizzbuzz(1)).toEqual('1');
+  });
+});
